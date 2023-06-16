@@ -1,0 +1,229 @@
+body{
+    background-color: rgb(69, 202, 180);
+    display: flex;
+    overflow-x: hidden;
+}
+.logo{
+    width:120px;
+    height:120px;
+}
+.m1{
+    width: 100vw;
+    height: 100px;
+    background-image:linear-gradient(to bottom, rgb(113, 223, 238), rgb(5, 134, 143));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8em;
+    font-family: "Helvet";
+    font-weight: bold;
+}
+.navbar-custom{
+    background-color:#02680b;
+    font-weight:bold;
+    font-size:1.2em;
+}
+.letra{
+    color: black;
+    padding: 5px ;
+    margin: 0px;
+    background-color: #FFFD6B;
+}
+p.letra{
+    font-size:1.2em;
+}
+
+.horarios{
+    width: 100vw;
+    height: 1000px;
+    background-color: #7ecdec;
+    position: relative;
+    font-size: 1.5em;
+}
+.calendario{
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #21e964;
+    position: absolute;
+    top: 17%;
+    left: 5%;
+}
+.i1{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.i2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 20%;
+    left:28%;
+    right:15px;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    .barra{
+        width: 100vw;
+    }
+    .m1{
+        font-size:1.5em;
+    }
+    .mensaje{
+        width: 100vw;
+        height: 580px;
+        background-color:white;
+        position: relative;
+        font-size: 1.5em;
+    }
+    .i3{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+    .i4{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+    .elegir{
+        width: 300px;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+    }
+    .pedidos{
+        top: 50%;
+    }
+    .calendario{
+        width: 180px;
+        height: auto;
+        position: absolute;
+        top: 45%;
+        left: 37%;
+    }
+    .i1{
+        position: absolute;
+        top: 20%;
+        left: 32%;
+    }
+    .i2{
+        position: absolute;
+        top: 30%;
+        left: 20%;
+    }
+    .mall,.metro,.alameda,.mira{
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        top: 5%;
+        left: 75%;
+        border-radius: 10px;
+    }
+    .alameda{
+        left: 50%;
+    }
+    .mall{
+        top: 30%;
+        left: 65%;
+    }
+    .metro{
+        top: 75%;
+        left: 20%;
+    }
+    .mira{
+        height: 200px;
+        top: 55%;
+        left: 60%;
+    }
+}
+@media screen and (max-width: 432px){
+    body{
+        overflow-x: hidden;
+    }
+    .barra{
+        width: 100vw;
+    }
+    .m1{
+        font-size:1.2em;
+    }
+    .mensaje{
+        width: 100vw;
+        height: 580px;
+        background-color:white;
+        position: relative;
+        font-size: 1em;
+    }
+    .i3{
+        position: absolute;
+        top: 20%;
+        left: 7%;
+        font-size: 1.1em;
+    }
+    .i4{
+        position: absolute;
+        top: 28%;
+        left: 7%;
+    }
+    .elegir{
+        width: 220px;
+        height: auto;
+        position: absolute;
+        top: 60%;
+        left: 24%;
+    }
+    .pedidos{
+        top: 43%;
+        left: 7%;
+    }
+    .calendario{
+        width: 130px;
+        height: auto;
+        position: absolute;
+        top: 55%;
+        left: 37%;
+    }
+    .i1{
+        position: absolute;
+        top: 20%;
+        left: 23%;
+    }
+    .i2{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        font-size: 0.9em;
+    }
+    .mall,.metro,.alameda,.mira{
+        width: 120px;
+        height: auto;
+        position: absolute;
+        top: 13%;
+        left: 75%;
+        border-radius: 10px;
+    }
+    .alameda{
+        left: 60%;
+    }
+    .mall{
+        top: 30%;
+        left: 65%;
+        visibility: hidden;
+    }
+    .metro{
+        top: 75%;
+        left: 20%;
+        visibility: hidden;
+    }
+    .mira{
+        height: 200px;
+        top: 40%;
+        left: 60%;
+    }
+}
